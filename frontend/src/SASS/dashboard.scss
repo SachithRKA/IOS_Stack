@@ -6,6 +6,17 @@
     padding: 20px;
     background-color: #f0f4f8;
 
+    .tutorial .link{
+        color: #007bff;
+        text-decoration: none;
+        font-size: 1rm;
+
+        &:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+    }
+
     &-header {
         width: 100%;
         background-color: #1a202c;

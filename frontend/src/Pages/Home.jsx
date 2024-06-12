@@ -1,4 +1,5 @@
 import React from "react";
+import {Link, Outlet} from "react-router-dom";
 
 function Home() {
     return (
@@ -26,6 +27,8 @@ function Home() {
 
                 <section className="tutorial">
                     <h2>How to Connect: </h2>
+                    <Link className="link" aria-current="page" to="/tutorial"> Tutorial</Link>
+                    <h2>Connected devices: </h2>
                 </section>
 
                 <section className="generate-token">

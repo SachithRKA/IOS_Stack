@@ -68,3 +68,36 @@
 2024-06-02T18:14:03.696708485 0.084544s notice: Server ready, "sachithrka_ThinkPad_T480_uuc" dc518cc6-618a-41d7-9b16-156efc37c575
 2024-06-02T18:14:05.562411778 1.950248s info: Table 4b6fb93e-d10a-4485-956b-7008b60990c5: Starting a new Raft election for term 4.
 2024-06-02T18:14:05.606898067 1.994736s info: Table 4b6fb93e-d10a-4485-956b-7008b60990c5: This server is Raft leader for term 4. Latest log index is 9.
+2024-06-07T17:39:26.353441303 0.054389s notice: Running rethinkdb 2.4.4~0jammy (x86_64-linux-gnu) (GCC 11.4.0)...
+2024-06-07T17:39:26.402220013 0.103169s notice: Running on Linux 6.5.0-35-generic x86_64
+2024-06-07T17:39:26.402397046 0.103344s notice: Loading data from directory /home/sachithrka/Documents/Projects/IOS_Stack/backend/rethinkdb_data
+2024-06-07T17:39:26.435364419 0.136312s info: Automatically using cache size of 4505 MB
+2024-06-07T17:39:26.438946470 0.139894s notice: Listening for intracluster connections on port 29015
+2024-06-07T17:39:26.471217762 0.172165s notice: Listening for client driver connections on port 28015
+2024-06-07T17:39:26.471459075 0.172407s notice: Listening for administrative HTTP connections on port 8080
+2024-06-07T17:39:26.471477145 0.172424s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2024-06-07T17:39:26.471510404 0.172457s notice: Listening on driver addresses: 127.0.0.1, ::1
+2024-06-07T17:39:26.471529835 0.172477s notice: Listening on http addresses: 127.0.0.1, ::1
+2024-06-07T17:39:26.471555866 0.172503s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2024-06-07T17:39:26.471569549 0.172517s notice: Server ready, "sachithrka_ThinkPad_T480_uuc" dc518cc6-618a-41d7-9b16-156efc37c575
+2024-06-07T17:39:27.597166853 1.298114s info: Table 4b6fb93e-d10a-4485-956b-7008b60990c5: Starting a new Raft election for term 5.
+2024-06-07T17:39:27.658626498 1.359574s info: Table 4b6fb93e-d10a-4485-956b-7008b60990c5: This server is Raft leader for term 5. Latest log index is 12.
+2024-06-07T18:28:23.925805100 2938.228959s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2024-06-07T18:28:23.925934687 2938.229088s notice: Shutting down client connections...
+2024-06-07T18:28:23.926026599 2938.229180s notice: All client connections closed.
+2024-06-07T18:28:23.926030537 2938.229184s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2024-06-07T18:28:23.998873238 2938.302027s notice: Storage engine shut down.
+2024-06-07T19:19:12.474201905 0.007229s notice: Running rethinkdb 2.4.4~0jammy (x86_64-linux-gnu) (GCC 11.4.0)...
+2024-06-07T19:19:12.478432113 0.011460s notice: Running on Linux 6.5.0-35-generic x86_64
+2024-06-07T19:19:12.478493430 0.011521s notice: Loading data from directory /home/sachithrka/Documents/Projects/IOS_Stack/backend/rethinkdb_data
+2024-06-07T19:19:12.491411032 0.024438s info: Automatically using cache size of 4005 MB
+2024-06-07T19:19:12.493165187 0.026193s notice: Listening for intracluster connections on port 29015
+2024-06-07T19:19:12.510959016 0.043986s notice: Listening for client driver connections on port 28015
+2024-06-07T19:19:12.511141583 0.044169s notice: Listening for administrative HTTP connections on port 8080
+2024-06-07T19:19:12.511143069 0.044170s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2024-06-07T19:19:12.511160608 0.044188s notice: Listening on driver addresses: 127.0.0.1, ::1
+2024-06-07T19:19:12.511188866 0.044216s notice: Listening on http addresses: 127.0.0.1, ::1
+2024-06-07T19:19:12.511199256 0.044226s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2024-06-07T19:19:12.511216082 0.044243s notice: Server ready, "sachithrka_ThinkPad_T480_uuc" dc518cc6-618a-41d7-9b16-156efc37c575
+2024-06-07T19:19:14.473251512 2.006279s info: Table 4b6fb93e-d10a-4485-956b-7008b60990c5: Starting a new Raft election for term 6.
+2024-06-07T19:19:14.539872801 2.072901s info: Table 4b6fb93e-d10a-4485-956b-7008b60990c5: This server is Raft leader for term 6. Latest log index is 15.

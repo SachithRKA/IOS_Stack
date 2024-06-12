@@ -153,6 +153,15 @@
   padding: 20px;
   background-color: #f0f4f8;
 }
+.dashboard .tutorial .link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1rm;
+}
+.dashboard .tutorial .link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
 .dashboard-header {
   width: 100%;
   background-color: #1a202c;

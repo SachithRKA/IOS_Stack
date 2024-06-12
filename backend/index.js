@@ -23,6 +23,15 @@ rethinkdb.connect(dbConfig, (err, conn) => {
     console.log('Connected to RethinkDB');
 });
 
+app.get ('/status', async(req, res) => {
+  try {
+    const response = await axios.get('')
+  }
+  catch (err) {
+    console.log(err)
+  }
+});
+
 app.post('/register', async (req, res) => {
     const { email,  password } = req.body;
     console.log(email, password);
