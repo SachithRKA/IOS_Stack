@@ -101,3 +101,17 @@
 2024-06-07T19:19:12.511216082 0.044243s notice: Server ready, "sachithrka_ThinkPad_T480_uuc" dc518cc6-618a-41d7-9b16-156efc37c575
 2024-06-07T19:19:14.473251512 2.006279s info: Table 4b6fb93e-d10a-4485-956b-7008b60990c5: Starting a new Raft election for term 6.
 2024-06-07T19:19:14.539872801 2.072901s info: Table 4b6fb93e-d10a-4485-956b-7008b60990c5: This server is Raft leader for term 6. Latest log index is 15.
+2024-06-12T12:03:32.147525040 0.008582s notice: Running rethinkdb 2.4.4~0jammy (x86_64-linux-gnu) (GCC 11.4.0)...
+2024-06-12T12:03:32.149194495 0.010252s notice: Running on Linux 6.5.0-35-generic x86_64
+2024-06-12T12:03:32.149237603 0.010295s notice: Loading data from directory /home/sachithrka/Documents/Projects/IOS_Stack/backend/rethinkdb_data
+2024-06-12T12:03:32.161204080 0.022262s info: Automatically using cache size of 4524 MB
+2024-06-12T12:03:32.163755335 0.024813s notice: Listening for intracluster connections on port 29015
+2024-06-12T12:03:32.181434408 0.042492s notice: Listening for client driver connections on port 28015
+2024-06-12T12:03:32.181494996 0.042552s notice: Listening for administrative HTTP connections on port 8080
+2024-06-12T12:03:32.181515096 0.042572s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2024-06-12T12:03:32.181526017 0.042583s notice: Listening on driver addresses: 127.0.0.1, ::1
+2024-06-12T12:03:32.181540911 0.042598s notice: Listening on http addresses: 127.0.0.1, ::1
+2024-06-12T12:03:32.181579298 0.042636s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2024-06-12T12:03:32.181591357 0.042648s notice: Server ready, "sachithrka_ThinkPad_T480_uuc" dc518cc6-618a-41d7-9b16-156efc37c575
+2024-06-12T12:03:33.960570758 1.821628s info: Table 4b6fb93e-d10a-4485-956b-7008b60990c5: Starting a new Raft election for term 7.
+2024-06-12T12:03:33.961766617 1.822824s info: Table 4b6fb93e-d10a-4485-956b-7008b60990c5: This server is Raft leader for term 7. Latest log index is 18.

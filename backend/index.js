@@ -32,6 +32,18 @@ app.get ('/status', async(req, res) => {
   }
 });
 
+app.get('/rasperry-stats', async (req, res) => {
+  try {
+    const response = await axios.get('http://localhost:5000/')
+    res.json(response.data)
+    console.log(response.data)
+  }
+  catch(error) {
+    console.error('Error fetching system stats:', error);
+    res.status(500).send('Error fetching system stats');
+  }
+});
+
 app.post('/register', async (req, res) => {
     const { email,  password } = req.body;
     console.log(email, password);
